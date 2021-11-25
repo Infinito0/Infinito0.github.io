@@ -85,11 +85,6 @@ i:hover
 }
 @media screen and (max-width:500px) 
 {
-    *
-    {
-        box-sizing: border-box;
-        font-family: proxima nova;
-    }
     .container
     {
         position: absolute;
