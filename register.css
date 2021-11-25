@@ -81,11 +81,10 @@ i
 i:hover
 {
     color: red;
-
 }
 @media screen and (max-width:500px) 
 {
-    .container
+   .container
     {
         position: absolute;
         top: 50%;
@@ -93,10 +92,12 @@ i:hover
         transform: translate(-50% , -50%);
         width: 400px;
         height: 700px;
+        width: 350px;
+        height: 750px
         box-sizing: border-box;
         background: rgba(0, 0, 0, 0.7);
         padding: 40px;
         border-radius: 20px;
     }
-    
 }
+    
