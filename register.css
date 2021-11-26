@@ -19,6 +19,8 @@ body
 .container
 {
     position: absolute;
+    margin-top: 10%;
+    margin-bottom: 10%;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
@@ -88,6 +90,8 @@ i:hover
    .container
     {
         position: absolute;
+        margin-top: 20%;
+        margin-bottom: 20%;
         top: 50%;
         left: 50%;
         transform: translate(-50% , -50%);

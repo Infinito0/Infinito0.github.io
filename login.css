@@ -78,3 +78,12 @@ i:hover
 {
     color: red;
 }
+@media screen and (max-width: 610px)
+{
+    .container
+    {
+        width: 350px;
+        height: 650p;
+    }
+
+}
