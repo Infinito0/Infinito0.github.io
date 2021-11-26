@@ -6,6 +6,7 @@
 }
 body
 {
+    padding-top: 50px;
     display: inline;
     color: white;
     background-image: url(pic1.jpg);
@@ -22,7 +23,7 @@ body
     left: 50%;
     transform: translate(-50% , -50%);
     width: 600px;
-    height: 800px;
+    height: 900px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.7);
     padding: 40px;
@@ -82,7 +83,7 @@ i:hover
 {
     color: red;
 }
-@media screen and (max-width:500px) 
+@media screen and (max-width:610px) 
 {
    .container
     {
@@ -91,7 +92,7 @@ i:hover
         left: 50%;
         transform: translate(-50% , -50%);
         width: 350px;
-        height: 750px
+        height: 950px;
         box-sizing: border-box;
         background: rgba(0, 0, 0, 0.7);
         padding: 40px;
