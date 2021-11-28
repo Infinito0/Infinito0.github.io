@@ -91,5 +91,12 @@ i:hover
         height: 850px;
         background: rgba(0, 0, 0, 0.1);
     }
+    body
+    {
+        padding-top: 10px;
+    }
+    .logo{
+        align-items: center;
+    }
 
 }
