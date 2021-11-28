@@ -96,6 +96,7 @@ i:hover
         padding-top: 10px;
     }
     .logo{
+        float: center;
         align-items: center;
     }
 
