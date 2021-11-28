@@ -7,7 +7,7 @@ body
 {
     display: inline;
     color: white;
-    background-image: url(pic2.jpg);
+    background: url(pic6.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -88,7 +88,7 @@ i:hover
     .container
     {
         width: 350px;
-        height: 750px;
+        height: 850px;
     }
 
 }
