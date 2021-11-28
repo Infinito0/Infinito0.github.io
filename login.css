@@ -20,7 +20,7 @@ body
     left: 50%;
     transform: translate(-50%,-50%);
     width: 400px;
-    height: 800px;
+    height: 900px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.7);
     padding: 40px;
