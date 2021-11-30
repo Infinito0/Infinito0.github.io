@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+section
+{
+   position: relative;
+   width: 100%; 
+   height: 100vh;
+   display: flex;
+}
+section .logo
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+section .logo:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:red;
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+section .logo img
+{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+}
+section .container
+{
+    background:black;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+section .container .form
+{
+    width: 50%;
+}
+section .container .form h2
+{
+  color: white;
+  font-weight: 600;
+  font-size: 1.5em ;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 4px solid red;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+section .container .form .input
+{
+    margin-bottom: 20px;
+}
+section .container .form .input span
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+section .container .form .input input
+{
+   width: 100%;
+   padding: 10px 20px;
+   outline: none;
+   font-weight: 400;
+   border: 1px solid white;
+   font-size: 16px;
+   letter-spacing: 1px;
+   color: white;
+   background: transparent;
+   border-radius: 30px;
+}
+section .container .form .input input[type="button"]
+{
+    background:red;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+section .container .form .input input[type="button"]:hover
+{
+    background: black;
+}
+section .container .form .remember
+{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .container .form .input p
+{
+    color: white;
+}
+section .container .form .input p a
+{
+    color: white;
+}
+
