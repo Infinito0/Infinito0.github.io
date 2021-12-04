@@ -12,13 +12,13 @@ section
    height: 100vh;
    display: flex;
 }
-section .logo
+.logo
 {
     position: relative;
     width: 50%;
     height: 100%;
 }
-section .logo:before
+.logo:before
 {
     content: '';
     position: absolute;
@@ -26,18 +26,18 @@ section .logo:before
     left: 0;
     width: 100%;
     height: 100%;
-    background:red;
+    background:green;
     z-index: 1;
     mix-blend-mode: screen;
 }
-section .logo img
+.logo img
 {
     position: absolute;
     top: 30%;
     left: 0;
     width: 100%;
 }
-section .container
+.container
 {
     background:black;
     display: flex;
@@ -46,26 +46,26 @@ section .container
     justify-content: center;
     align-items: center;
 }
-section .container .form
+.form
 {
     width: 50%;
 }
-section .container .form h2
+h2
 {
   color: white;
   font-weight: 600;
   font-size: 1.5em ;
   text-transform: uppercase;
   margin-bottom: 20px;
-  border-bottom: 4px solid red;
+  border-bottom: 4px solid green;
   display: inline-block;
   letter-spacing: 1px;
 }
-section .container .form .input
+.input
 {
     margin-bottom: 20px;
 }
-section .container .form .input span
+span
 {
     font-size: 16px;
     margin-bottom: 5px;
@@ -75,7 +75,7 @@ section .container .form .input span
     font-size: 16px;
     letter-spacing: 1px;
 }
-section .container .form .input input
+input
 {
    width: 100%;
    padding: 10px 20px;
@@ -88,31 +88,24 @@ section .container .form .input input
    background: transparent;
    border-radius: 30px;
 }
-section .container .form .input input[type="button"]
+input[type=button]
 {
-    background:red;
+    background:green;
     color: white;
     outline: none;
     border: none;
     font-weight: 500;
     cursor: pointer;
 }
-section .container .form .input input[type="button"]:hover
+input[type=button]:hover
 {
     background: black;
 }
-section .container .form .remember
-{
-    margin-bottom: 10px;
-    color: white;
-    font-weight: 400;
-    font-size: 14px;
-}
-section .container .form .input p
+p
 {
     color: white;
 }
-section .container .form .input p a
+a
 {
     color: white;
 }
