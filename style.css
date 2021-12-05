@@ -88,18 +88,24 @@ input
    background: transparent;
    border-radius: 30px;
 }
-input[type=button]
+button
 {
-    background:green;
-    color: white;
-    outline: none;
-    border: none;
-    font-weight: 500;
-    cursor: pointer;
+    width: 100%;
+   padding: 10px 20px;
+   outline: none;
+   font-weight: 400;
+   border: 1px solid white;
+   font-size: 16px;
+   letter-spacing: 1px;
+   color: black;
+   background: white;
+   border-radius: 30px;
+   
 }
-input[type=button]:hover
+button:hover
 {
-    background: black;
+    background: green;
+    color: white;
 }
 p
 {
@@ -107,6 +113,7 @@ p
 }
 a
 {
-    color: white;
+    color: white;    
 }
+
 
