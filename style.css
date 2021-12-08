@@ -124,8 +124,7 @@ a
     .container
     {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    
     transform: translate(-50%,-50%);
     width: 400px;
     height: 600px;
@@ -138,7 +137,6 @@ section
 {
     background-image: url(img2.png);
     background-repeat: no-repeat;
-    display: flex;
 }
 }
 @media only screen and (max-width: 450px)
@@ -162,7 +160,6 @@ section
 {
     background-image: url(img2.png);
     background-repeat: no-repeat;
-    display: flex;
 }
 }
 
