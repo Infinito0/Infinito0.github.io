@@ -139,6 +139,10 @@ section
     background-image: url(img2.png);
     background-repeat: no-repeat;
 }
+img 
+{
+    width: 600px;
+}
 }
 @media only screen and (max-width: 450px)
 {
@@ -163,6 +167,10 @@ section
 {
     background-image: url(img2.png);
     background-repeat: no-repeat;
+}
+img 
+{
+    width: 300px;
 }
 }
 
